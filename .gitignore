@@ -1,0 +1,26 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.  
+
+
+/laravel/vendor/
+laravel/node_modules/
+laravel/npm-debug.log
+laravel/yarn-error.log
+
+# Laravel 4 specific
+laravel/bootstrap/compiled.php
+laravel/app/storage/
+
+# Laravel 5 & Lumen specific
+laravel/public/storage
+laravel/public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+laravel/public_html/storage
+laravel/public_html/hot
+
+laravel/storage/*.key
+laravel/.env
+laravel/Homestead.yaml
+laravel/Homestead.json
+/laravel/.vagrant
+laravel/.phpunit.result.cache
