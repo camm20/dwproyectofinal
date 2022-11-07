@@ -1,0 +1,9 @@
+<nav class="navbar navbar-dark bg-primary ">
+    <div class="container-fluid">
+        <a class="navbar-brand">APP | MARCAJE</a>
+        <div>
+            <a class="navbar-brand" routerLink="login" *ngIf="!loggedIn">LOGIN</a>
+            <a class="navbar-brand" href="#" (click)="logout($event)" *ngIf="loggedIn">LOGOUT</a>
+        </div>
+    </div> 
+</nav>

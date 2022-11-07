@@ -1,0 +1,17 @@
+.d-flex {
+    height: -o-calc(100vh - 56px);
+    /* opera */
+    height: -webkit-calc(100vh - 56px);
+    /* google, safari */
+    height: -moz-calc(100vh - 56px);
+    /* firefox */
+    height: calc(100vh - 56px);
+    align-items: center;
+}
+
+.card-footer{
+    background-color: #ffe425;
+    font-weight: bold;
+    color: #363636 !important;
+    font-size: 21px;
+}

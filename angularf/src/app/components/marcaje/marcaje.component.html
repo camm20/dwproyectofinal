@@ -1,0 +1,19 @@
+<div class="d-flex justify-content-center" style="padding: 20px 0;">
+    <div class="card w-50 border-secondary text-center">
+        <div class="card-header">
+            MARCAJE
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">
+                <fa-icon [icon]="faStopwatch"></fa-icon> {{ hour }}
+            </h5>
+            <p class="card-text">
+                <fa-icon [icon]="faCalendarDays"></fa-icon>{{ date }}
+            </p>
+            <a href="#" class="btn btn-primary" (click)="marcar($event)">Marcar</a>
+        </div>
+        <div class="card-footer text-muted">
+            {{ tipoMarca }}
+        </div>
+    </div>
+</div>
